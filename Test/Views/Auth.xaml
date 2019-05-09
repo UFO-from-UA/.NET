@@ -1,0 +1,64 @@
+﻿<Window x:Class="Test.Views.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test.Views"
+        mc:Ignorable="d"
+        xmlns:adorners="http://gu.se/Adorners"
+        MinWidth="300" MinHeight="140"
+        MaxWidth="300" MaxHeight="140"
+        WindowStartupLocation="CenterScreen"
+        Icon="../Icons/pass.png"
+        Title="Авторизация" Height="140" Width="300">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                <GradientStop Color="#FFFFC934" Offset="0"/>
+                <GradientStop Color="#FFFFFFFF" Offset="0.3"/>
+                <GradientStop Color="#fc9825" Offset="0.6"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Border Name="borderMain" Grid.Row="0" Grid.Column="0"></Border>
+
+        <StackPanel Margin="5"   Grid.Row="0" Grid.Column="0" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10" >
+                <TextBlock FontSize="16">Введите пароль :</TextBlock>
+                <PasswordBox Name="pb_pass" FontSize="16" adorners:Watermark.Text="Write password"  MinWidth="100" Background="#fff" MaxLength="10" KeyDown="OK_KeyDown">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush>
+                            <GradientStop Color="Yellow" Offset="0.0" />
+                            <GradientStop Color="Red" Offset="0.25" />
+                            <GradientStop Color="Blue" Offset="0.75" />
+                            <GradientStop Color="LimeGreen" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                </PasswordBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Button Cursor="Hand" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" Margin="5" MinWidth="100" MaxHeight="30" Click="OK" >
+                    OK
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="Yellow" Offset="0.0" />
+                            <GradientStop Color="Red" Offset="0.25" />
+                            <GradientStop Color="Blue" Offset="0.75" />
+                            <GradientStop Color="LimeGreen" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Cursor="Hand" FontWeight="Bold" FontSize="16" IsCancel="True" HorizontalAlignment="Left" Margin="5" MinWidth="100" MaxHeight="30" >Отмена
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="Yellow" Offset="0.0" />
+                            <GradientStop Color="Red" Offset="0.25" />
+                            <GradientStop Color="Blue" Offset="0.75" />
+                            <GradientStop Color="LimeGreen" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

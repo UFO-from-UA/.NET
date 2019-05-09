@@ -1,0 +1,172 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="Tecт" Height="550" Width="825" MinWidth="500" MinHeight="500"
+        WindowState="Maximized"
+        Icon="Icons/main.png"
+        Closing="Window_Closing"
+        Closed="Window_Closed"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="GroupBox">
+            <!--<Setter Property="FontFamily" Value="Comic Sans MS"/>-->
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="LightBlue"/>
+        </Style>
+        <Style TargetType="MenuItem">
+            <Setter Property="FontFamily" Value="Franklin Gothic Demi"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+    </Window.Resources>
+    <Grid Name="grid">
+        <Grid.Background>
+            <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="1" RadiusY="1.2" Opacity="1">
+                <RadialGradientBrush.GradientStops>
+                    <GradientStop Color="#fcfc14" Offset="0" />
+                    <GradientStop Color="#fc9f14" Offset="1" />
+                </RadialGradientBrush.GradientStops>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <DockPanel  LastChildFill="True">
+            <Menu Height="25"  DockPanel.Dock="Top">
+                <MenuItem Header="Справка" Click="MENU_info" Cursor="Hand"></MenuItem>
+                <!--<Separator />-->
+                <MenuItem Header="Изменить ответ" Click="MENU_changeAnswe" Name="MENU_changeA" Cursor="Hand"></MenuItem>
+                <MenuItem Header="Изменить информацию" Click="MENU_changeInfo" Name="MENU_changeI" Cursor="Hand"></MenuItem>
+                <MenuItem Header="О программе" Click="MENU_about" Cursor="Hand"></MenuItem>
+                <MenuItem Header="Настройки" Click="MENU_Settings" Cursor="Hand"></MenuItem>
+                <MenuItem Header="Выход" Click="B_EXIT" Cursor="Hand"></MenuItem>
+                <!--<MenuItem Header="f" Click="FakeGeneration" Cursor="Hand"></MenuItem>-->
+            </Menu>
+            <DockPanel LastChildFill="True" Margin="10 0 10 10" DockPanel.Dock="Bottom">
+                <DockPanel DockPanel.Dock="Bottom" Margin="0 0 0 0" >
+                    <Button Name="b_End" Click="B_End_Click" DockPanel.Dock="Right" Height="60" Width="250" Visibility="Hidden" Margin="2" Background="Green" MinWidth="100" BorderBrush="Orange" BorderThickness="2" Cursor="Hand">Завершить</Button>
+                    <!--<Button Name="b_Prev">Предидущий вопрос</Button>-->
+                    <Button Name="b_Next" Click="B_Next_Click" IsEnabled="False" MaxHeight="40" DockPanel.Dock="Right" MinWidth="120" MaxWidth="200" Margin="2" Cursor="Hand">Следующий вопрос</Button>
+                    <ProgressBar Name="Progress"  MaxHeight="30" Margin="2" Maximum="60" Cursor="Hand" MouseDoubleClick="Progress_MouseDoubleClick" >
+                        <ProgressBar.Background>
+                        <LinearGradientBrush                      StartPoint="0,0.5"                     EndPoint="1,0.5">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStop Color="Red"                       Offset="0"/>
+                                <GradientStop Color="Green"                      Offset="1"/>
+                            </LinearGradientBrush.GradientStops>
+                            </LinearGradientBrush>
+                        </ProgressBar.Background>
+                        <ProgressBar.BorderBrush>
+                        <LinearGradientBrush                      StartPoint="0,0.5"                     EndPoint="1,0.5">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStop Color="Red"                       Offset="0"/>
+                                <GradientStop Color="Green"                      Offset="1"/>
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                        </ProgressBar.BorderBrush>
+                        <ProgressBar.Foreground>
+                            <LinearGradientBrush SpreadMethod="Reflect" StartPoint="0,0.5" EndPoint="0.2,0.5">
+                                <GradientStop Color="Blue" Offset="0"></GradientStop>
+                                <GradientStop Color="#8800ff" Offset="1"></GradientStop>
+                            </LinearGradientBrush>
+                        </ProgressBar.Foreground>
+                    </ProgressBar>
+                </DockPanel>
+                <GroupBox Name="gpAnswerVariant" Padding="10">
+                    <GroupBox.Header>
+                        <TextBlock Text="Вырианты Ответов" Foreground="Black" FontWeight="Bold" HorizontalAlignment="Center"/>
+                    </GroupBox.Header>
+                    <DockPanel LastChildFill="False">
+                        <StackPanel DockPanel.Dock="Left"  VerticalAlignment="Center">
+                            <Border Name="AnswerMarginLeft" Width="200" MaxHeight="100" MaxWidth="400">
+                            </Border>
+                        </StackPanel>
+                        <StackPanel DockPanel.Dock="Left"  VerticalAlignment="Center">
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_1" MaxHeight="100" ></Image>
+                            </Border>
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_2" MaxHeight="100" ></Image>
+                            </Border>
+                        </StackPanel>
+                        <StackPanel DockPanel.Dock="Left"  VerticalAlignment="Center">
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_3" MaxHeight="100" ></Image>
+                            </Border>
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_4" MaxHeight="100" ></Image>
+                            </Border>
+                        </StackPanel>
+                        <StackPanel DockPanel.Dock="Left"  VerticalAlignment="Center">
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_5" MaxHeight="100" ></Image>
+                            </Border>
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_6" MaxHeight="100" ></Image>
+                            </Border>
+                        </StackPanel>
+                        <StackPanel DockPanel.Dock="Left" VerticalAlignment="Center">
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_7" MaxHeight="100" ></Image>
+                            </Border>
+                            <Border MouseDown="DrawSelection" MaxHeight="100" BorderThickness="2" Cursor="Hand"  MouseLeftButtonDown="DOUBLE_CLICK">
+                                <Image Name="AnswerVariant_8" MaxHeight="100" ></Image>
+                            </Border>
+                        </StackPanel>
+                    </DockPanel>
+                </GroupBox>
+            </DockPanel>
+            <DockPanel LastChildFill="True" Margin="10" DockPanel.Dock="Top" >
+                <GroupBox Name="gpInfo" Padding="3" MaxWidth="150" MinWidth="250" MinHeight="150"   DockPanel.Dock="Right" Margin="10 0 0 0 ">
+                    <GroupBox.Header>
+                        <TextBlock Text="Информация" Foreground="Black" FontWeight="Bold"/>
+                    </GroupBox.Header>
+                    <DockPanel LastChildFill="False">
+                        <TextBlock Name="qNum" TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="16" DockPanel.Dock="Top" TextAlignment="Center">Вопрос № 1</TextBlock>
+                        <TextBlock Name="FIO" TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="16" DockPanel.Dock="Top" TextAlignment="Center"></TextBlock>
+                        <TextBlock Name="iClass" TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="14" DockPanel.Dock="Top" TextAlignment="Center"></TextBlock>
+                        <TextBlock Name="iShuffle" TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="14" DockPanel.Dock="Top" TextAlignment="Center"></TextBlock>
+                        <Button Click="B_changeMail_Click" Name="b_changeMail" Visibility="Collapsed" BorderThickness="2" BorderBrush="red"  HorizontalAlignment="Stretch" FontSize="18" DockPanel.Dock="Bottom" MaxHeight="80" Margin="5">
+                            <Button.Content>
+                                <StackPanel>
+                                    <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="14" TextAlignment="Center">Введенная почта не действительна</TextBlock>
+                                    <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="18" TextAlignment="Center">Изменить</TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+                            <Button.Background>
+                                <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="1" RadiusY="1.2" Opacity="1">
+                                    <RadialGradientBrush.GradientStops>
+                                        <GradientStop Color="red" Offset="0" />
+                                        <GradientStop Color="#fc9f14" Offset="1" />
+                                    </RadialGradientBrush.GradientStops>
+                                </RadialGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button Click="MENU_changeInfo" Name="b_change_info" Visibility="Collapsed" BorderThickness="2" BorderBrush="#8800ff"  HorizontalAlignment="Stretch" FontSize="14" DockPanel.Dock="Bottom"  Margin="10 5">
+                            <Button.Content>
+                                <StackPanel>
+                                    <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="14" TextAlignment="Center">Проверте всю введеную инфомацию.</TextBlock>
+                                    <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="18" TextAlignment="Center">Изменить</TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+                            <Button.Background>
+                                <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="1" RadiusY="1.2" Opacity="1">
+                                    <RadialGradientBrush.GradientStops>
+                                        <GradientStop Color="#8800ff" Offset="0" />
+                                        <GradientStop Color="#fc9f14" Offset="1" />
+                                    </RadialGradientBrush.GradientStops>
+                                </RadialGradientBrush>
+                            </Button.Background>
+                        </Button>
+                    </DockPanel>
+                </GroupBox>
+                <GroupBox Name="gpQuestion" HorizontalAlignment="Stretch" MinWidth="200">
+                    <GroupBox.Header>
+                        <TextBlock Text="Вопрос" Foreground="Black" FontWeight="Bold" HorizontalAlignment="Stretch" />
+                    </GroupBox.Header>
+                    <Image Name="imgQuestion"></Image>
+                </GroupBox>
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</Window>

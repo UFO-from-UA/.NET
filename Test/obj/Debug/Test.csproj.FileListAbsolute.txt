@@ -1,0 +1,115 @@
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\Test.exe.config
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\Test.exe
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\Test.pdb
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\MainWindow.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\App.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test_MarkupCompile.cache
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test_MarkupCompile.lref
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\MainWindow.baml
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test.g.resources
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test.Properties.Resources.resources
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test.exe
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test.pdb
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Auth.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\QuestionSelection.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Auth.baml
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\QuestionSelection.baml
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\ColorTranslations.dll
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Pupil.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Pupil.baml
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Settings.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Settings.baml
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\itextsharp.dll
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\itextsharp.xml
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Result.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\Result.baml
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\Gu.Wpf.Adorners.dll
+E:\яЯя\С++\С#_Kursach\Test\Test\bin\Debug\Gu.Wpf.Adorners.xml
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\YesNo.g.cs
+E:\яЯя\С++\С#_Kursach\Test\Test\obj\Debug\Views\YesNo.baml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Test.exe.config
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Test.exe
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Test.pdb
+C:\Users\asp\Desktop\Test\Test\bin\Debug\ColorTranslations.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\EPPlus.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Gu.Wpf.Adorners.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\itextsharp.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\NS.OpenXml.ExcelInterop.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Remotion.Data.Linq.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.Common.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.License.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.Pdf.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.XLS.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\SysdataExcelPackage.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Microsoft.mshtml.dll
+C:\Users\asp\Desktop\Test\Test\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\EPPlus.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Gu.Wpf.Adorners.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\itextsharp.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Remotion.Data.Linq.pdb
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.Common.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.License.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.Pdf.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\Spire.XLS.xml
+C:\Users\asp\Desktop\Test\Test\bin\Debug\SysdataExcelPackage.xml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\asp\Desktop\Test\Test\obj\Debug\MainWindow.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Pupil.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Auth.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\QuestionSelection.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Result.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Settings.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\YesNo.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\App.g.cs
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test_MarkupCompile.cache
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test_MarkupCompile.lref
+C:\Users\asp\Desktop\Test\Test\obj\Debug\MainWindow.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Pupil.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Auth.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\QuestionSelection.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Result.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\Settings.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Views\YesNo.baml
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.g.resources
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.exe
+C:\Users\asp\Desktop\Test\Test\obj\Debug\Test.pdb
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\MainWindow.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Pupil.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Auth.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\QuestionSelection.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Result.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Settings.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\YesNo.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\App.g.cs
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test_MarkupCompile.cache
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test_MarkupCompile.lref
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test.exe
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test.pdb
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\Test.exe.config
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\Test.exe
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\Test.pdb
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\ColorTranslations.dll
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\Gu.Wpf.Adorners.dll
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\itextsharp.dll
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\Gu.Wpf.Adorners.xml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\bin\Debug\itextsharp.xml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\MainWindow.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Pupil.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Auth.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\QuestionSelection.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Result.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\Settings.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Views\YesNo.baml
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test.g.resources
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test.Properties.Resources.resources
+E:\яЯя\С++\С#_Kursach\Test LOWER 2\Test\obj\Debug\Test.csproj.GenerateResource.Cache
